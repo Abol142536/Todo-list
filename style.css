@@ -1,0 +1,16 @@
+.list-item{
+    cursor: pointer;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(135, 96, 96);
+    box-sizing: border-box;
+    display: inline-block;
+    color: white;
+    border-radius:20PX;
+}
+.list-item:hover{
+    text-decoration: line-through;
+    color: rgb(156, 137, 173);
+    transition: all ease 1S;
+   
+}
